@@ -1,0 +1,9 @@
+Sequel Fun
+
+The first web challenge for X-MAS CTF opens with strong hints towards SQL Injection, both from the title and description.
+
+The home page is simply a login screen. Trying the canonical SQL Injection in the password field (`' or 1=1; -- a`) returns an error page which mentions not liking the number 1. So we simply follow along, switch the 1s to 2s, and get the flag with the follow payload: `' or 1=1; -- a`
+
+
+Roboworld
+
